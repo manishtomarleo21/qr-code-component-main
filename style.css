@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit';
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color:  hsl(212, 45%, 89%);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container .card{
+    height: 75%;
+    width: 22%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    
+
+}
+
+.container .card .top{
+    height: 60%;
+    width: 92%; 
+    border-radius: 14px
+}
+
+.container .card .top img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px
+}
+
+.container .card .bottom{
+    height: 30%;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 11px;
+}
+
+.container .card .bottom #heading{
+    font-size: 23px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+.container .card .bottom #para{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 550px) { 
+    .container{
+        height: 100vh;
+        width: 100%;    
+    }
+    
+    
+    .container .card{
+        height: 80%;
+        width: 85%;
+        
+        
+    
+    }
+}
+
+
+
